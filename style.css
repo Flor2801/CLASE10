@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: lime;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+
+@media (max-width: 900px) and (min-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    body {
+        background-color: rgb(25, 0, 250);
+        
+    }
+}
+
+@media (max-width: 600px) {
+    h1  {
+        font-size: 24px;
+    }
+
+    body {
+
+        background-color: tomato;
+
+    }
+}
+
